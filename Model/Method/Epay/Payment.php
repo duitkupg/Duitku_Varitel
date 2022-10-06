@@ -177,7 +177,7 @@ class Payment extends \Duitku\Varitel\Model\Method\AbstractPayment
 		
 		$params = array(
              'merchantCode' => $merchantcode,
-             'paymentAmount' => $amount,
+             'paymentAmount' => $paymentAmount,
              'paymentMethod' => 'FT',
 			 'merchantOrderId' =>$orderId,
              'productDetails' => 'Order : '.$orderId,
