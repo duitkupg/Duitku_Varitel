@@ -1,5 +1,7 @@
 <?php
-include_once('ApiRequestor.php');
+namespace Duitku\Varitel\Helper\Duitku;
+// include_once('ApiRequestor.php');
+use Duitku\Varitel\Helper\Duitku\Duitku_Varitel_ApiRequestor;
 class Duitku_Varitel_Core {
 
   public static function getRedirectionUrl($baseUrl, $params)
