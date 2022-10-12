@@ -1,5 +1,4 @@
 <?php
-namespace Duitku\Varitel\Helper\Duitku;
 
 class Duitku_Varitel_ApiRequestor {
 
